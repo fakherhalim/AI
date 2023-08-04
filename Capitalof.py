@@ -2,7 +2,7 @@
 import os
 import openai
 openai.organization = "org-YLFi9xzpghD9In8J4kGESGt0"
-openai.api_key = os.getenv('OPENAI_API_KEY')#"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"
+openai.api_key = os.getenv('OPENAI_API_KEY')#get key from windows environment variable
 
 def query_gpt3(prompt):
     try:
