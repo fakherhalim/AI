@@ -2,7 +2,7 @@
 import os
 import openai
 openai.organization = "org-YLFi9xzpghD9In8J4kGESGt0"
-openai.api_key = "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"
+openai.api_key = "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"#"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"
 
 
 def query_gpt3(prompt):
